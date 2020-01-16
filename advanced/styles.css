@@ -1,0 +1,185 @@
+html, body{
+
+  height: 100%;
+
+}
+
+body {
+
+   font-family: Verdana, Arial, Helvetica, sans-serif;
+
+   font-size: 13px;
+
+   color: saddlebrown; /* schriftfarbe */
+
+}
+
+ 
+
+main{
+
+    margin: 0 auto; /*setzt die margin der ganzen Seite auf 0 und zentriert */
+
+    background-color: blanchedalmond;
+
+    height: 95%;
+
+    width: 95%; /*setzt die Breite des containers auf 90% der Seite
+
+    damit der Inhalt nicht iwo ausserhalb ist */
+
+ 
+
+}
+
+ 
+
+article{
+
+  float: left;
+
+  width: 65%;
+
+ 
+
+}
+
+ 
+
+header p {
+
+   float: left;
+
+   position: absolute;
+
+   margin-left: 3px;
+
+   margin-right: 3px;
+
+   color: brown;
+
+}
+
+ 
+
+ 
+
+/* NAV style from here*/
+
+ 
+
+ul { /* nimmt immer die ganze Breite somit kann man es nicht floaten
+
+ausser man sagt ihn es soll sich nicht wie ein block element verhalten*/
+
+    list-style-type: none; /*no bullet points please */
+
+    margin: 0; /*sets all the margin properties*/
+
+    padding: 0; /*used to generate space around content*/
+
+    overflow: auto; /*entweder to clip content or to add scrollbars or
+
+    hidden - auto zeigt ein scroll nur wenns es sein muss*/
+
+    background-color: burlywood;  
+
+    width: 100%;
+
+    min-height: 45px; /* wenn wir hier min größe angeben, heißt das,
+
+    dass es auch größer werden kann. somit ist die notwendigkeit von overflow nicht mehr gegeben.*/
+
+}
+
+ 
+
+li {
+
+    float: right;
+
+    border: 1px lightcyan;
+
+}
+
+ 
+
+ 
+
+li a {
+
+  display: block;
+
+  color: brown;
+
+  text-align: center;
+
+  padding: 14px 16px;
+
+  text-decoration: none;
+
+}
+
+ 
+
+aside{
+
+    height: 50%;  
+
+    width: 15%;
+
+    margin: 4px;
+
+    padding: 4px;
+
+}
+
+ 
+
+ 
+
+#leftcolumn {
+
+   float: left;
+
+   border: dotted burlywood;
+
+ 
+
+}
+
+ 
+
+#rightcolumn {
+
+   float: right;
+
+   border: dotted burlywood;
+
+}
+
+ 
+
+footer {
+
+   height: 40px;
+
+   width: 94%;
+
+   clear: both;
+
+   background-color: burlywood; 
+
+   color: brown;
+
+   text-align: center;
+
+   position: absolute;
+
+   bottom: 18px;
+
+ 
+
+ 
+
+}

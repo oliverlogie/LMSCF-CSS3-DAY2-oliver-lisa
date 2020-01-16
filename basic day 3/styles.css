@@ -1,0 +1,46 @@
+#container{
+	padding-left: 50px;
+	padding-right: 50px;
+	align-self: auto;
+	box-shadow:  0 5px 8px 0px grey;
+	margin: 0 auto; /* this is to align the content in the middle of the page */
+	width: 800px;
+	text-align: center;
+	font-family: 'Happy Monkey', cursive;
+}
+
+p,li{
+	color: #707070;
+
+}
+
+li{
+	text-align: left;
+	padding-bottom: 5px; 
+	padding-top: 5px;
+	padding-left: 5px;
+}
+
+h1 {
+	text-align: center;
+	color: #DB0038;
+}
+
+h2{
+	color: #3998A3;
+}
+
+h3{
+	color: #474747;
+}
+
+.hero{
+	background-color: #f4f4f4;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+.stars{
+	color: #F4B400;
+	font-size: 25px;
+}
