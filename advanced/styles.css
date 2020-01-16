@@ -1,6 +1,7 @@
 html, body{
 
   height: 100%;
+  margin: 0px;
 
 }
 
@@ -10,7 +11,7 @@ body {
 
    font-size: 13px;
 
-   color: saddlebrown; /* schriftfarbe */
+   color: white; 
 
 }
 
@@ -20,11 +21,11 @@ main{
 
     margin: 0 auto; /*setzt die margin der ganzen Seite auf 0 und zentriert */
 
-    background-color: blanchedalmond;
+    background-color: cornflowerblue;
 
-    height: 95%;
+    height: 100%;
 
-    width: 95%; /*setzt die Breite des containers auf 90% der Seite
+    width: 100%; /*setzt die Breite des containers auf 90% der Seite
 
     damit der Inhalt nicht iwo ausserhalb ist */
 
@@ -32,36 +33,48 @@ main{
 
 }
 
+
+header p{
+  margin: 0;
+
+}
+
  
 
-article{
+#columns {
 
+/*   float: left; */
+
+  width: calc(100% - 20px);
+
+  columns:  3;
+
+}
+
+header img, p{
   float: left;
-
-  width: 65%;
-
- 
-
 }
-
- 
-
 header p {
-
-   float: left;
-
-   position: absolute;
-
-   margin-left: 3px;
-
-   margin-right: 3px;
-
-   color: brown;
-
+    text-align: center;
+    height: 50px;
+    color: white;
+    font-size: 1.5em;
+    line-height: 50px;
 }
 
  
+#logo1{
+  border-radius: 8px;
+    width: 200px;
+    float: left;
+}
 
+#logo2{
+  border-radius: 50%;
+  height: 80px;
+  width: 120px;
+  float: right;
+}
  
 
 /* NAV style from here*/
@@ -82,35 +95,31 @@ ausser man sagt ihn es soll sich nicht wie ein block element verhalten*/
 
     hidden - auto zeigt ein scroll nur wenns es sein muss*/
 
-    background-color: burlywood;  
+    background-color: royalblue;  
 
     width: 100%;
 
     min-height: 45px; /* wenn wir hier min größe angeben, heißt das,
 
     dass es auch größer werden kann. somit ist die notwendigkeit von overflow nicht mehr gegeben.*/
-
+  float: left;
 }
 
- 
 
 li {
 
-    float: right;
+    float: left;
 
     border: 1px lightcyan;
 
 }
 
- 
-
- 
 
 li a {
 
   display: block;
 
-  color: brown;
+  color: white;
 
   text-align: center;
 
@@ -120,66 +129,51 @@ li a {
 
 }
 
- 
 
-aside{
 
-    height: 50%;  
-
-    width: 15%;
-
-    margin: 4px;
-
-    padding: 4px;
-
+#feature{
+  clear: both;
+  height: 50px;
+  border: 2px;
+  border-style: dotted;
+  border-color: black;
 }
-
- 
-
- 
-
-#leftcolumn {
-
-   float: left;
-
-   border: dotted burlywood;
-
- 
-
-}
-
- 
-
-#rightcolumn {
-
-   float: right;
-
-   border: dotted burlywood;
-
-}
-
  
 
 footer {
 
-   height: 40px;
+   height: 50px;
 
-   width: 94%;
+   width: 100%;
 
-   clear: both;
+   /* clear: both; */
 
-   background-color: burlywood; 
+   background-color: royalblue; 
 
-   color: brown;
-
-   text-align: center;
+   color: white;
 
    position: absolute;
 
    bottom: 18px;
 
- 
+}
 
- 
+.copyright{
+  float:  right;
+  width: 300px;
+  align-content: ;
+  height: 50px;
 
 }
+
+li #copyright{
+  float: right;
+
+}
+
+#footernav{
+  width: 800px;
+  height: 50px;
+  padding-top: ;
+/*   position: absolute;
+ */}
