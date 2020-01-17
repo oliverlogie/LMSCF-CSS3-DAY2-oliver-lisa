@@ -1,7 +1,8 @@
 html, body{
 
   height: 100%;
-  margin: 0px;
+  margin: 0;
+  overflow: hidden;
 
 }
 
@@ -19,7 +20,7 @@ body {
 
 main{
 
-    margin: 0 auto; /*setzt die margin der ganzen Seite auf 0 und zentriert */
+    /*margin: 0 auto; /*setzt die margin der ganzen Seite auf 0 und zentriert */
 
     background-color: cornflowerblue;
 
@@ -159,8 +160,7 @@ footer {
 
    position: absolute;
 
-   bottom: 18px;
-
+   bottom: 0;
 }
 
 .copyright{
@@ -179,6 +179,15 @@ li #copyright{
 #footernav{
   width: 800px;
   height: 50px;
-  padding-top: ;
+  margin-right: 120px;
 /*   position: absolute;
  */}
+ .copy {
+  margin-left: 20px;
+ }
+ .img {
+  float: right;
+  align-items: center;
+  margin: 10px;
+
+ }
